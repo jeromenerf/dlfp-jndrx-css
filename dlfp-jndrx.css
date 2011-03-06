@@ -629,11 +629,11 @@ ul.threads > li.odd, ul.threads > li.even {
 	padding-left: .2em;
 }
 
-ul.threads > li.odd {
+ul.threads  li.odd {
 	border-left: solid 2px #AD0000;
 }
 
-ul.threads > li.even {
+ul.threads  li.even {
 	border-left: solid 2px #007000;
 }
 
