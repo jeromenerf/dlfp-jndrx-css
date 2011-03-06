@@ -161,7 +161,7 @@ body {
 	margin-left: auto;
 	margin-right: auto;
 	width: 100%;
-	max-width: 80em; /* 2x37em */
+	max-width: 76em; /* 2x37em */
 }
 
 aside.banner {
@@ -202,7 +202,7 @@ aside.banner {
 	display: block;
 	margin-right: auto;
 	margin-left: auto;
-	max-width: 80em; /* 2x37em */
+	max-width: 76em; /* 2x37em */
 
 	-moz-border-radius-topleft: 5px;
 	-moz-border-radius-bottomleft: 5px;
@@ -586,16 +586,14 @@ footer.actions .vote * {
 }
 
 footer.actions .vote input[value=pertinent], #comment_preview, #news_preview, button, #account_submit, #stylesheets-edit input[type=submit] {
-	border: solid 1px green;
-	background-color: #007000;
-	color: #FFFFFF;
+	border: none;
+	color: #007000;
 	font-size: 1em;
 }
 
 footer.actions .vote input[value=inutile], #registrations-edit input[value="Fermer mon compte"], #form_links button.remove {
-	border: solid 1px red;
-	background-color: #AD0000;
-	color: #FFFFFF;
+	border: none;
+	color: #AD0000;
 	font-size: 1em;
 }
 
@@ -729,4 +727,8 @@ ul.threads > li.even {
  nav.toolbox > .new_content, nav.toolbox > .order_navbar, .tags, footer.actions > .tag_in_place, article.node > header > h1 > a:first-child,
  #container > h1:first-child, #container > div.notice:first-child + h1, #branding > h1, .go_to_content, #site>form, .datePourCss {
 	display: none;
+}
+
+#diaries-index footer.actions, #news-index footer.actions {
+	display: none; 
 }
