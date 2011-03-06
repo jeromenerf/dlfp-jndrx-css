@@ -85,7 +85,6 @@ body {
 	text-transform: uppercase;
 	font-size: .8em;
 	line-height: 1em;
-	border-bottom: none;
 }
 
 #site a, #site a:visited {
@@ -607,6 +606,7 @@ footer.actions .vote input[value=inutile], #registrations-edit input[value="Ferm
 	z-index: 20;
 	color: #252B30;
 	text-transform: uppercase;
+	border-bottom: solid 1px #969B9F;
 	-moz-border-radius-bottomleft: 5px;
 	-webkit-border-bottom-left-radius: 5px;
 
@@ -731,6 +731,6 @@ ul.threads  li.even {
 	display: none;
 }
 
-#diaries-index footer.actions, #news-index footer.actions, home-index footer.actions {
+#diaries-index footer.actions, #news-index footer.actions, #home-index footer.actions, #forum-index footer.actions {
 	display: none; 
 }
