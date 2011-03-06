@@ -624,9 +624,9 @@ footer.actions .vote input[value=inutile], #registrations-edit input[value="Ferm
 	margin-left: 1em;
 }
 
-ul.threads > li.odd, ul.threads > li.even {
+ul.threads li.odd, ul.threads li.even {
 	margin-bottom: 1em;
-	padding-left: .2em;
+	padding-left: .5em;
 }
 
 ul.threads  li.odd {
@@ -672,10 +672,6 @@ ul.threads  li.even {
 
 #comments li.comment {
 	list-style-type:none;
-}
-
-#comments li.comment > ul {
-	padding-left: 1.4em;
 }
 
 #comments li.comment .meta {
