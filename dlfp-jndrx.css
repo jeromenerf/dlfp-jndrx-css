@@ -79,7 +79,7 @@ body {
 #site {
 /*    position: fixed;*/ /* I don't want titles to be hidden behind nav bar */
 	width: 100%;
-	background-color: #969B9F;
+	background-color: #ECEAE7;
 	padding: .4em;
 	font-style: italic;
 	text-transform: uppercase;
@@ -105,15 +105,15 @@ body {
 }
 
 #sidebar {
-	background-color: #969B9F;
+	background-color: #ECEAE7;
 	color: #CC0000;
 	position: fixed;
 	z-index: 99;
 	right: -20em;
 	width: 20em;
-	border-left: 20px solid #969B9F;
-	border-bottom: 1px solid #969B9F;
-	border-top: 1px solid #D6DBDF;
+	border-left: 20px solid #ECEAE7;
+	border-bottom: 1px solid #ECEAE7;
+	border-top: 1px solid #ECEAE7;
 
 	-moz-border-radius-bottomleft: 15px;
 	-webkit-border-bottom-left-radius: 15px;
@@ -124,7 +124,7 @@ body {
 }
 
 #sidebar .box {
-	background-color: #969B9F;
+	background-color: #ECEAE7;
 	font-size: .8em;
 	padding-bottom: .5em;
 }
@@ -132,7 +132,7 @@ body {
 #sidebar .box > h1 {
 	font-size: 1em;
 	background-color: green;
-	background-color: #D6DBDF;
+	background-color: #ECEAE7;
 	padding: .5em;
 }
 
@@ -600,13 +600,13 @@ footer.actions .vote input[value=inutile], #registrations-edit input[value="Ferm
 
 #toolbar {
 	position: fixed;
-	background-color: #969B9F;
+	background-color: #ECEAE7;
 	top: 0;
 	right: 0;
 	z-index: 20;
 	color: #252B30;
 	text-transform: uppercase;
-	border-bottom: solid 1px #969B9F;
+	border-bottom: solid 1px #ECEAE7;
 	-moz-border-radius-bottomleft: 5px;
 	-webkit-border-bottom-left-radius: 5px;
 
