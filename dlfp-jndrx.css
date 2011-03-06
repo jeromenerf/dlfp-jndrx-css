@@ -303,9 +303,7 @@ article.node > .content {
 
 blockquote {
 	font-style: italic;
-	border: solid 2px #CC0000;
-	color: #252B30;
-	background: #D6DBDF;
+	color: #969B9F;
 	margin: 1em 0em 1em 1.4em;
 	padding: .4em;
 }
@@ -320,9 +318,8 @@ blockquote:before {
 
 
 pre {
-	border: solid 2px #CC0000;
-	color: #252B30;
-	background: #D6DBDF;
+	font-family: monospace;
+	color: #969B9F;
 	margin: 1em 0em 1em 1.4em;
 	padding: .4em;
 }
