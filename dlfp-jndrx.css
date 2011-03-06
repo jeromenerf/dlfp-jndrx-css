@@ -186,12 +186,11 @@ aside.banner {
 }
 
 /* multicol on content view */
-#diaries-show #contents .content, #news-show #contents .content {
+#diaries-show #contents .node .content, #news-show #contents .node .content {
 	-webkit-column-count: 2;
 	-webkit-column-gap: 1.2em;
 	-moz-column-count: 2;
 	-moz-column-gap: 1.2em;
-	height: 30em ;
 }
 
 .content h2, .content h3, .content h4 {
