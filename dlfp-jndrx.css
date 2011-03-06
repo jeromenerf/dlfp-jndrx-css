@@ -157,7 +157,7 @@ body {
 	margin-left: auto;
 	margin-right: auto;
 	width: 100%;
-	max-width: 38em; 
+	max-width: 42em; 
 }
 
 aside.banner {
@@ -183,7 +183,7 @@ aside.banner {
 
 .node .content {
 	/* brighter font color for integral content */
-	color: #D6DBDF ;
+/*    color: #D6DBDF ;*/
 }
 
 /* multicol on content view */
