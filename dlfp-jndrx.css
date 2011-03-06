@@ -630,11 +630,11 @@ ul.threads li.odd, ul.threads li.even {
 }
 
 ul.threads  li.odd {
-	border-left: solid 2px #AD0000;
+	border-left: solid 0.2em;
 }
 
 ul.threads  li.even {
-	border-left: solid 2px #007000;
+	border-left: dotted 0.2em;
 }
 
 #comments {
