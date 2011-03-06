@@ -85,7 +85,7 @@ body {
 	text-transform: uppercase;
 	font-size: .8em;
 	line-height: 1em;
-	border-bottom: solid 1px #000000;
+	border-bottom: none;
 }
 
 #site a, #site a:visited {
@@ -106,20 +106,17 @@ body {
 }
 
 #sidebar {
-	background-color: #D6DBDF;
+	background-color: #969B9F;
 	color: #CC0000;
 	position: fixed;
 	z-index: 99;
 	right: -20em;
 	width: 20em;
-	border-left: 20px solid #D6DBDF;
-	border-bottom: 1px solid #D6DBDF;
+	border-left: 20px solid #969B9F;
+	border-bottom: 1px solid #969B9F;
 	border-top: 1px solid #D6DBDF;
 
-	-moz-border-radius-topleft: 15px;
 	-moz-border-radius-bottomleft: 15px;
-
-	-webkit-border-top-left-radius: 15px;
 	-webkit-border-bottom-left-radius: 15px;
 }
 
