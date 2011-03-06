@@ -161,7 +161,7 @@ body {
 	margin-left: auto;
 	margin-right: auto;
 	width: 100%;
-	max-width: 1540px /* larger max width */
+	max-width: 80em; /* 2x37em */
 }
 
 aside.banner {
@@ -202,7 +202,7 @@ aside.banner {
 	display: block;
 	margin-right: auto;
 	margin-left: auto;
-	max-width: 1540px;
+	max-width: 80em; /* 2x37em */
 
 	-moz-border-radius-topleft: 5px;
 	-moz-border-radius-bottomleft: 5px;
