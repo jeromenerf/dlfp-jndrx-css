@@ -77,7 +77,7 @@ body {
 }
 
 #site {
-	position: fixed;
+/*    position: fixed;*/ /* I don't want titles to be hidden behind nav bar */
 	width: 100%;
 	background-color: #eceae7;
 	padding: .4em;
@@ -604,12 +604,15 @@ footer.actions .vote input[value=inutile], #registrations-edit input[value="Ferm
 
 #toolbar {
 	position: fixed;
+	background-color: #eceae7;
 	margin-right: 1.2em;
 	top: 0;
 	right: 0;
 	z-index: 20;
 	color: #252B30;
 	text-transform: uppercase;
+	-moz-border-radius-bottomleft: 5px;
+	-webkit-border-bottom-left-radius: 5px;
 
 	padding: .4em;
 	font-size: .8em;
@@ -730,6 +733,6 @@ ul.threads  li.even {
 	display: none;
 }
 
-#diaries-index footer.actions, #news-index footer.actions {
+#diaries-index footer.actions, #news-index footer.actions, home-index footer.actions {
 	display: none; 
 }
