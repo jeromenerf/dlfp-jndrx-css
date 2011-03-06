@@ -541,9 +541,9 @@ footer.actions {
 }
 
 footer.actions > a.action {
-	background-color: #007000;
-	border: 1px solid green;
-	color: #FFFFFF;
+	background-color: #969B9F;
+	border: none;
+	color: #007000;
 	font-size: .8em;
 	letter-spacing: 1px;
 	font-family: Ubuntu, Verdana, "DejaVu Sans", "Bitstream Vera Sans", Geneva, sans-serif;
@@ -626,7 +626,7 @@ footer.actions .vote input[value=inutile], #registrations-edit input[value="Ferm
 
 ul.threads li.odd, ul.threads li.even {
 	margin-bottom: 1em;
-	padding-left: .5em;
+	padding-left: .8em;
 }
 
 ul.threads  li.odd {
