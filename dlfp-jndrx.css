@@ -740,7 +740,7 @@ ul.threads  li.even {
 	display: none; 
 }
 
-#news-index header.meta, #news-index div.content * {
+#news-index article header div.meta, #news-index article div.content * {
 	display:none;
 }
 
@@ -748,7 +748,7 @@ ul.threads  li.even {
 	display: block;
 }
 
-#news-index div.content #link  {
+#news-index div.content li.#link * {
 	display: list-item;
 }
 
