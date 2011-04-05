@@ -739,3 +739,17 @@ ul.threads  li.even {
 #diaries-index footer.actions, #news-index footer.actions, #home-index footer.actions, #forum-index footer.actions {
 	display: none; 
 }
+
+#news-index header.meta, #news-index div.content * {
+	display:none;
+}
+
+#news-index div.content > p:first-child  {
+	display: block;
+}
+
+#news-index div.content #link  {
+	display: list-item;
+}
+
+
