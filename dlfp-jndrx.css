@@ -740,15 +740,26 @@ ul.threads  li.even {
 	display: none; 
 }
 
+
 #news-index article header div.meta, #news-index article div.content * {
 	display:none;
 }
 
-#news-index div.content > *:first-child, #news-index div.content > *:first-child * {
-	display: block;
+#news-index div.content > *:first-child {
+	display: inline;
+	max-height: 50px;
 }
 
-#news-index div.content > ul:last-child, #news-index div.content > ul:last-child *{
+#news-index div.content > *:first-child * {
+	display: inline;
+}
+
+#news-index div.content > ul:last-child {
+	display: block;
+	max-height: 50px;
+}
+
+#news-index div.content > ul:last-child * {
 	display: list-item;
 }
 
