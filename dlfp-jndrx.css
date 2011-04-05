@@ -741,13 +741,15 @@ ul.threads  li.even {
 }
 
 #news-index #container, #news-index #bigfooter {
-	max-width: 100%
+	max-width: 100%;
 }
 
 #news-index article {
 	display: block;
 	width: 33%; 
 	max-height: 100px;
+	float: left;
+}
 
 #news-index article header div.meta, #news-index article div.content * {
 	display:none;
