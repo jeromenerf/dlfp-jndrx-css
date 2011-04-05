@@ -744,11 +744,11 @@ ul.threads  li.even {
 	display:none;
 }
 
-#news-index div.content > p:first-child  {
+#news-index div.content > *:first-child  {
 	display: block;
 }
 
-#news-index div.content li.#link * {
+#news-index div.content li.link * {
 	display: list-item;
 }
 
