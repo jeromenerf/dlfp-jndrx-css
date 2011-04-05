@@ -740,6 +740,14 @@ ul.threads  li.even {
 	display: none; 
 }
 
+#news-index #container, #news-index #bigfooter {
+	max-width: 100%
+}
+
+#news-index article {
+	display: block;
+	width: 33%; 
+	max-height: 100px;
 
 #news-index article header div.meta, #news-index article div.content * {
 	display:none;
@@ -748,6 +756,7 @@ ul.threads  li.even {
 #news-index div.content > *:first-child {
 	display: inline;
 	max-height: 50px;
+	overflow: hidden;
 }
 
 #news-index div.content > *:first-child * {
@@ -757,6 +766,7 @@ ul.threads  li.even {
 #news-index div.content > ul:last-child {
 	display: block;
 	max-height: 50px;
+	overflow: hidden;
 }
 
 #news-index div.content > ul:last-child * {
