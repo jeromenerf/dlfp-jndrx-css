@@ -748,7 +748,7 @@ ul.threads  li.even {
 	display: block;
 }
 
-#news-index div.content li.link * {
+#news-index div.content > ul:last-child {
 	display: list-item;
 }
 
