@@ -622,7 +622,7 @@ footer.actions .vote input[value=inutile], #registrations-edit input[value="Ferm
 	line-height: 1em;
 }
 
-#toolbar_items, #toolbar_threshold {
+#toolbar_items, #toolbar_threshold, #toolbar_alt_items {
 	font-size: x-small;
 }
 
@@ -746,8 +746,9 @@ ul.threads  li.even {
 
 #news-index article {
 	display: block;
-	width: 33%; 
-	max-height: 100px;
+	width: 45%;
+	margin: 2.5%;	
+	height:250px;
 	float: left;
 }
 
@@ -772,7 +773,8 @@ ul.threads  li.even {
 }
 
 #news-index div.content > ul:last-child * {
-	display: list-item;
+	display: block;
+	font-size: 1em;
 }
 
 
