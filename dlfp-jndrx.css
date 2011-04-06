@@ -78,7 +78,7 @@ body {
 
 #site {
 /*    position: fixed;*/ /* I don't want titles to be hidden behind nav bar */
-	width: 100%;
+/*    width: 100%;*/
 	background-color: #ECEAE7;
 	padding: .4em;
 	font-style: italic;
@@ -746,6 +746,7 @@ ul.threads  li.even {
  #home-index #container, #home-index #bigfooter,
  #news-index #container, #news-index #bigfooter {
 	max-width: 100%;
+	align: center;
 }
 
 #home-index article,
@@ -789,7 +790,7 @@ ul.threads  li.even {
 #home-index div.content > ul:last-child *,
  #diaries-index div.content > ul:last-child *,
  #news-index div.content > ul:last-child * {
-	display: block;
+	display: inline-block;
 	font-size: 1em;
 }
 
