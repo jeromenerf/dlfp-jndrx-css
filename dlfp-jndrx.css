@@ -732,7 +732,7 @@ ul.threads  li.even {
 
 /* Le contenu à cacher */
 
-#comments-answer footer.actions, #last_comments, #popular_tags, .pagination > a, .pagination > .gap, figure, figure.image, img.avatar,
+#comments-answer footer.actions, #last_comments, #popular_tags, .pagination > a, .pagination > .gap, figures, figure.image, img.avatar,
  nav.toolbox > .new_content, nav.toolbox > .order_navbar, .tags, footer.actions > .tag_in_place, article.node > header > h1 > a:first-child,
  #container > h1:first-child, #container > div.notice:first-child + h1, #branding > h1, .go_to_content, #site>form, .datePourCss {
 	display: none;
